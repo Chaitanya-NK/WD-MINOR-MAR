@@ -1,0 +1,33 @@
+/* h1{
+    color: cornflowerblue;
+    margin-left: 20px;
+}
+
+h4{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+#image{
+    display: block;
+    margin-left: 100px;
+} */
+
+@keyframes cssAnimation{
+    from {
+      opacity: 1 ;
+    }
+    to {
+          width:0;
+          height:0;
+          opacity:0;
+          overflow:hidden;
+      }
+  }
+  .jumbotron {
+    animation: cssAnimation 10s forwards;
+  }
+
